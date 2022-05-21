@@ -1,0 +1,363 @@
+body{
+	font-size: 16px;
+	color: white;
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;
+}
+/*HEADER*/
+#header-nav{
+	background-color: #F6B319;
+	border-radius: 0;
+	border:0;
+}
+#logo-img{
+	background: url("https://carefreerestaurants.com/wp-content/uploads/2018/01/Carefree-Restaurant-Assoc-logo-WEB-150px.png") no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 10px 10px 0;
+	border: 0;
+}
+.navbar-brand{
+	padding-top: 25px;
+}
+.navbar-brand h1{/*Restaurant name*/
+	font-family: 'Lora',Serif;
+	color: #557C3E;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-bottom: 0;
+	margin-top: 0;
+	line-height: .75;
+	}
+	.navbar-brand a:hover, .navbar-brand a:focus{
+		text-decoration: none;
+	}
+	.navbar-brand p{/*Kosher cert*/
+		color: #000;
+		text-transform: uppercase;
+		font-size: .7em;
+		margin-top: 15px;
+	}
+	.navbar-brand p span{/*star-k*/
+		vertical-align: middle;
+		font-style: italic;
+		font-weight: bold;
+	}
+	#nav-list{
+		margin-top: 10px;
+	}
+	#nav-list a{
+		color: #951C49;
+		text-align: center;
+	}
+	#nav-list a:hover{
+		background: white;
+	}
+	#nav-list a span{
+		font-size: 1.3em;
+	}
+	#phone{
+		margin-top: 5px;
+	}
+	#phone a{/*Phone number*/
+		text-align: right;
+		padding-bottom: 0;
+	}
+	#phone div{/*We deliver*/
+		color: #557C3E;
+		text-align: right;
+		padding-right: 15px;
+	}
+	.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+		border: 1px solid #61122F;
+	}
+	.navbar-header button .navbar-toggle{
+		clear: both;
+		margin-top: -30px;
+	}
+	/*Home page*/
+
+	#menu-title, #specials-title, #map-title{
+		height: 250px;
+		width: 100%;
+		margin-bottom: 15px;
+		position: relative;
+		border: 2px solid #3F0C1F;
+		overflow: hidden;
+	}
+	#menu-title:hover, #specials-title:hover, #map-title:hover{
+		box-shadow: 0 1px 5px 1px #CCCCCC;
+	}
+	#menu-title{
+		background: url("https://i.ytimg.com/vi/DbVPaf2Pw7A/maxresdefault.jpg") no-repeat;
+		background-position: center;
+		background-size: 500px;
+		
+	}
+	#specials-title{
+		background: url("https://resize-elle.ladmedia.fr/rcrop/1024,1024/img/var/plain_site/storage/images/elle-a-table/les-dossiers-de-la-redaction/news-de-la-redaction/ramen-soupe-3021633/60210679-3-fre-FR/Tout-savoir-sur-le-ramen.jpg") no-repeat;
+		background-position: center;
+		background-size: 390px;
+	}
+	#menu-title span, #specials-title span, #map-title span{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		width: 100%;
+		text-align: center;
+		font-size: 1.6em;
+		text-transform: uppercase;
+		background-color: #000;
+		color: #FFF;
+		opacity: .75;
+	}
+/*End of Home page*/
+
+/*Menu categories page*/
+	.category-title{
+		position: relative;
+		border: 2px solid #3F0C1F;
+		overflow: hidden;
+		width: 200px;
+		height: 200px;
+		margin: 0 auto 15px;
+	}
+	.category-title span{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		width: 100%;
+		text-align: center;
+		font-size: 1.2em;
+		text-transform: uppercase;
+		background-color: #000;
+		color: #FFF;
+		opacity: .8;
+	}
+	.category-title:hover{
+		box-shadow: 0 1px 5px 1px #CCCCCC;
+	}
+	#menu-categories-title+div{
+		margin-bottom: 50px;
+	}
+	/*End of Menu categories page*/
+
+	/*Single category Page*/
+	.menu-item-title{
+		margin-bottom: 25px;
+	}
+	.menu-item-title hr{
+		width: 80%;
+	}
+	.menu-item-title .menu-item-price{
+		font-size: 1.1em;
+		text-align: right;
+		margin-top: -15px;
+		margin-right: -15px;
+	}
+	.menu-item-title .menu-item-price span{
+		font-size: .6em;
+	}
+	.menu-item-photo{
+		position: relative;
+		border: 2px solid #3F0C1F;
+		overflow: hidden;
+		padding: 0;
+		margin-right: -15px;
+		margin-left: auto;
+		margin-bottom: 20px;
+		max-width: 180px;
+	}
+	.menu-item-photo div{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		width: 80px;
+		background-color: #557C3E;
+		text-align: center;
+	}
+	.menu-item-description{
+		padding-right: 30px;
+	}
+	h3.menu-item-title{
+		margin: 0 0 10px;
+	}
+	.menu-item-details{
+		font-size: .9em;
+		font-style: italic;
+	}
+	/*End single category page*/
+	.container .jumbotron{
+		box-shadow: 0 0 50px #3F0C1F;
+		border: 2px solid #3F0C1F;
+	}
+	/*Large devices only*/
+	@media(min-width: 1200px){
+		.container .jumbotron{
+			/*margin-top: 30px;*/
+			padding: 0;
+			background: url("https://previews.123rf.com/images/milkos/milkos2004/milkos200403998/145518255-restaurant-in-modern-style-light-colors-interior-with-green-walls-and-creative-mirrors-copy-space.jpg") no-repeat;
+			height: 675px;
+			/*background-size: 675px;*/
+		}
+		
+	}
+	/*Medium devices only*/
+	@media(min-width: 992px) and (max-width: 1199px) {
+	/*Header*/
+	#logo-img{
+		background: url("https://carefreerestaurants.com/wp-content/uploads/2018/01/Carefree-Restaurant-Assoc-logo-WEB-150px.png") no-repeat;
+		background-size: 100px;
+		width: 100px;
+		height: 100px;
+		margin: 5px 5px 5px 0;
+		border: 0;
+	}
+	.container .jumbotron{
+		background: url("https://previews.123rf.com/images/milkos/milkos2004/milkos200403998/145518255-restaurant-in-modern-style-light-colors-interior-with-green-walls-and-creative-mirrors-copy-space.jpg") no-repeat;
+		height: 558px;
+	}
+	/*End header*/
+	}
+	/*Small devices only*/
+	@media(min-width: 768px) and (max-width: 991px){
+		.container .jumbotron{
+			background: url("https://previews.123rf.com/images/milkos/milkos2004/milkos200403998/145518255-restaurant-in-modern-style-light-colors-interior-with-green-walls-and-creative-mirrors-copy-space.jpg") no-repeat;
+			height: 500px;
+
+			
+		}
+	}
+		
+	
+	/*Extra Small devices only*/
+	@media(max-width: 767px){
+		/*Header*/
+	.navbar-brand{
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1{/*Restaurant name*/
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+	
+	.navbar-brand p{/*Kosher cert*/
+		font-size: .6em;
+		margin-top: 12px;
+	}
+	.navbar-brand p img{/*star-k*/
+		height: 20px;
+	}
+	#collapsable-nav a{/*collapsed nav menu glyph*/
+		font-size: 1.2em;
+	}
+	#collapsable-nav a span{
+		font-size: 1em;
+		margin-right: 5px;
+	}
+	#call-btn>a{
+		font-size: 1.5em;
+		display: block;
+		margin: 0 20px;
+		padding: 10px;
+		border: 2px solid #FFF;
+		background-color: #F6B319;
+		color: #951C49;
+	}
+	#xs-deliver{
+		margin-top: 5px;
+		font-size: .7em;
+		letter-spacing: .1em;
+		text-transform: uppercase;
+	}
+	/*End header*/
+
+	/*Footer*/
+	.panel-footer section{
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	.panel-footer section: nth-child(3){
+		margin-bottom: 0; /*margin already exists on the whole row*/
+	}
+	.panel-footer section hr{
+		width: 50%;
+	}
+	/*End footer*/
+	/*Home page*/
+	.container .jumbotron{
+		margin-top: 30px;
+		padding: 0;
+	}
+
+	#menu-title, #specials-title{
+		width: 360px;
+		margin: 0 auto 15px;
+	}
+
+	}
+	/*Super Extra small devices only*/
+	@media(max-width: 479px){
+		/*Header*/
+		.navbar-brand h1{/*Restaurant name*/
+			padding-top: 5px;
+			font-size: 6vw;
+		}
+		/*Home page*/
+		#menu-title, #specials-title{
+			width: 280px;
+			margin: 0 auto 15px;
+		}
+		/*Menu categories page*/
+		.col-xxs-12{
+			position: relative;
+			min-height: 1px;
+			padding-right: 15px;
+			padding-left: 15px;
+			float: left;
+			width: 100%;
+		}
+	}
+	/*single category page*/
+	.menu-item-photo{
+		margin-right: auto;
+	}
+	.menu-item-title .menu-item-price{
+		text-align: center;
+	}
+	.menu-item-description{
+		text-align: center;
+	}
+	/*End Header*/
+	/*Footer*/
+	.panel-footer{
+		margin-top: 30px;
+		padding-top: 35px;
+		padding-bottom: 30px;
+		background-color: #222;
+		border-top: 0;
+	}
+	.panel-footer div.row{
+		margin-bottom: 35px;
+	}
+	#hours, #address{
+		line-height: 2;
+	}
+	#hours>span, #address>span{
+		font-size: 1.3em;
+	}
+	#address p{
+		color: #557C3E;
+		font-size: .8em;
+		line-height: 1.8;
+	}
+	#testimonials{
+		font-style: italic;
+	}
+	#testimonials p: nth-child(2){
+		margin-top: 25px;
+	}
+	/*End Footer*/
